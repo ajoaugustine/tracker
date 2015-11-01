@@ -1,0 +1,10 @@
+person:
+    resource: "@PersonBundle/Resources/config/routing.php"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+contact:
+    path: /contact
+    defaults: { _controller: AppBundle:Main:contact }

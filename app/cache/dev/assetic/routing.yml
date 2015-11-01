@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: /usr/share/nginx/tracker/app/config/routing_dev.yml

@@ -1,0 +1,33 @@
+<?php
+namespace Acme\PersonBundle\Document;
+ 
+use Doctrine\ODM\MongoDB\Mapping\Annotations as MongoDB;
+ 
+/**
+ * @MongoDB\Document
+ */
+class MongoPerson
+{
+/**
+     * @MongoDB\Id
+     */
+    protected $id;
+ 
+    /**
+     * @MongoDB\Field(type="string")
+     */
+    protected $first_name;
+ 
+    /**
+     * @MongoDB\Field(type="string")
+     */
+    protected $last_name;
+ 
+    /**
+     * @MongoDB\Field(type="int")
+     */
+    protected $age;
+ 
+}
+ 
+?>

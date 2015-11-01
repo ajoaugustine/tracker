@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: db1
+    database_port: '5432'
+    database_name: clients
+    database_user: postgres
+    database_password: R00tr00t
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: e5c15794c93dd429c7f16a354dc6255d381a74ce
